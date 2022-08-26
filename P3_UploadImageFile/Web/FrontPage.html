@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="container">
+	
+	<h2 align="center">Upload & Retrieve Image from Databases</h2>
+		<form action="Image_Upload" method="post	" enctype="multipart/form-data">
+			<table border="2px" align="center">
+				<tr>
+					<td>Image ID : </td>
+					<td>
+						<input type="number" name="id">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>FullName : </td>	
+					<td>
+						<input type="text" name="fullname" placeholder="Enter Fullname">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Image Link : </td>
+					<td>
+						<input type="file" name="file">
+					</td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="Submit">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
