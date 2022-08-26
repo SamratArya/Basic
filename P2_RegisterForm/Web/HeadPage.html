@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+	h1
+	{
+		text-align: center;
+	}
+	
+	.t1 , td
+	{
+		border: 2px solid black;
+		text-align: center;
+	}
+	
+	
+</style>
+</head>
+<body>
+	<div class = "container">
+		<h1>Student Registeration Form</h1>
+		
+		<form action="RegisterForm" method="get">
+			<table class="t1" align="center">
+				<tr>
+					<td>FirstName : </td>
+					<td>
+						<input type="text" name="firstname" placeholder="Enter Firstname">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>LastName : </td>
+					<td>
+						<input type="text" name="lastname" placeholder="Enter Lastname">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Username : </td>
+					<td>
+						<input type="text" name="username" placeholder="Enter Username">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Password : </td>
+					<td>
+						<input type="password" name="password" placeholder="Enter Password">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Confirm Password : </td>
+					<td>
+						<input type="password" name="conf_pass" placeholder="Enter Conf_Pass">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>DOB : </td>
+					<td>
+						<input type="date" name="dob">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Gender : </td>
+					<td>
+						<input type="radio" value="Male" name="gender">Male
+						<input type="radio" value="Female" name="gender">Female
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Select Stream : </td>
+					<td>
+						<input type="radio" value="Science" name="stream">Science
+						<input type="radio" value="Commerce" name="stream">Commerce
+						<input type="radio" value="Arts" name="stream">Arts
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Select Hobbies : </td>
+					<td>
+						<input type="checkbox" name="hobbies" value="sports">Sports
+						<input type="checkbox" name="hobbies"value="gymnastics">Gymnastics
+						<input type="checkbox" name="hobbies"value="dance">Dancing
+						<input type="checkbox" name="hobbies"value="singing">Singing
+					</td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="submit">
+						<input type="reset" value="cancel">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
