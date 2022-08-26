@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+	
+	.container
+	{
+		margin-left: 450px;
+		margin-right: auto;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="container">
+        	<h1>File Upload to Database Demo</h1>
+        	<form method="post" action="FileUpload" enctype="multipart/form-data">
+            	<table border="2px">
+                	<tr>
+                    	<td>First Name: </td>
+                    	<td><input type="text" name="firstname" size="50"/></td>
+                	</tr>
+                	<tr>
+                    	<td>Last Name: </td>
+                    	<td><input type="text" name="lastname" size="50"/></td>
+                	</tr>
+                	<tr>
+                    	<td>Portrait Photo: </td>
+                    	<td>
+                    		<input type="file" name="photo" size="50"/>
+						</td>
+                	</tr>
+                	<tr>
+                    	<td colspan="2">
+                        <input type="submit" value="Save">
+                    	</td>
+                	</tr>
+            	</table>
+        	</form>
+	</div>
+</body>
+</html>
